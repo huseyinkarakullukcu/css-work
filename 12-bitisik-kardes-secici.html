@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div den sonra gelen p etiketi gibi  */
+        /* seçtiğimiz etiketten sonra gelen etiket */
+        h3 + p {
+            color: red;
+        }
+        div + p{
+            color:green;
+        }
+        div + p span{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <h3>başlık</h3>
+    <p>paragraf 1</p>
+    <p>paragraf 2</p>
+    <h3>başlık 2</h3>
+    <div>div dir </div>
+    <p>paragraf 3
+        <span>bu bir span</span>
+    </p>
+    <p>paragraf 4</p>
+</body>
+</html>
