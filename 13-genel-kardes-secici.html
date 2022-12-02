@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* seçtiğimiz etiketten sonra gelen tüm etiketleri seçer */
+        h3 ~ p{
+            color: green;
+        }
+        ul li.liste2 ~ li{
+            color:lime;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1. item</li>
+        <li class="liste2">2. item</li>
+        <li>3. item</li>
+        <li>4. item</li>
+        <li>5. item</li>
+        <li>6. item</li>
+    </ul>
+    <p>
+        bubir paragraf
+    </p>
+    <h3>bu bir başlık</h3>
+    <p>bu bir paragraf</p>
+    <div>bu bir div dir</div>
+    <p>bu bir paragraf</p>
+</body>
+</html>
