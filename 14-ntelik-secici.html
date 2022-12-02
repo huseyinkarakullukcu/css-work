@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* bir niteliğinin olup olmaması */
+        abbr[title]{
+            color: green;
+        }
+        /* etiket belirtilmez ise o nitelik olan hepsinin seçer  */
+        img[alt]{
+            background-color: green;
+        }
+        img[height]{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <abbr title="World Eide Web Consortium">W3C</abbr> nedir?
+    </p>
+
+    <p>
+        <abbr >CSS</abbr> nedir?
+    </p>
+    <img src="https://prototurk.com/public/img/prototurk.png"  height="133">
+    <img src="https://prototurk.com/public/img/prototurk.png" alt="prototurk" width="100">
+</body>
+</html>
