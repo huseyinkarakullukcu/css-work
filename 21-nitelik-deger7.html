@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* belirtilen harf belirtilen niteliğin herhangi bir yerinde geçen ve büyük küçük harfe duyarlılığı olmamasını sağlama - bütün küçük büyük harf sıkıntısı olan da işe yarar */
+        div[class *= "top" i]{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-title">box kutu</div>
+    <div class="top-title-box">box kutu</div>
+    <div class="toptitlebox">box kutu</div>
+    <div class="top_title_box">box kutu</div>
+    <div class="TOP">div etiketi</div>
+</body>
+</html>
