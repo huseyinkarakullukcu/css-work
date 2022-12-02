@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* class seçici . ile seçilir. birden fazla etikete stil uygulamak için kullanılır  */
+        .color-blue{
+            color:blue;
+        }
+        .text-bold{
+            font-weight:bold;
+        }
+        /* hem color blu hem text-bold olan class seçme  */
+        /* bir etiket hem class hem id niteliği alabilir  */
+        .color-blue.text-bold{
+            color:blue;
+        }
+        #paragraf2{
+            color: purple;
+        }
+        /* class color-blue ve text-bold olan ID si paragraf2 olanı seç  */
+        .color-blue.text-bold#paragraf2{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="color-blue">prototur.com</h3>
+    <p class="color-blue">bu bir paragraftır</p>
+    <div class="color-blue text-bold">bu bir div dir</div>
+    <p class="color-blue" id="paragraf2">bu bir paragraftır 2</p>
+    <p class="color-blue text-bold" id="paragraf2">bu bir paragraftır 2</p>
+</body>
+</html>
